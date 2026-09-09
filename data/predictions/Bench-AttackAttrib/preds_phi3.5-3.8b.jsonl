@@ -1,0 +1,103 @@
+{"id": "cti-0001", "techniques": ["T1563.001", "T1563.002"]}
+{"id": "cti-0002", "techniques": ["T1483.002", "T1486.001"]}
+{"id": "cti-0003", "techniques": ["T1580.004"]}
+{"id": "cti-0004", "techniques": ["T1553.002", "T1559.001"]}
+{"id": "cti-0005", "techniques": ["T1059.004"]}
+{"id": "cti-0006", "techniques": ["T1059.001"]}
+{"id": "cti-0007", "techniques": ["T1027"]}
+{"id": "cti-0008", "techniques": ["T1059.001", "T1059.002"]}
+{"id": "cti-0009", "techniques": ["T1124.001", "T1563.002"]}
+{"id": "cti-0010", "techniques": ["T1059.001", "T1217.001"]}
+{"id": "cti-0011", "techniques": ["T1059.001"]}
+{"id": "cti-0012", "techniques": ["T1021", "T1059.001", "T1075.001"]}
+{"id": "cti-0013", "techniques": ["T1059.004", "T1628"]}
+{"id": "cti-0014", "techniques": ["T1059.001", "T1078.001"]}
+{"id": "cti-0015", "techniques": ["T1204.001", "T1573.002"]}
+{"id": "cti-0016", "techniques": ["T1059.001", "T1078"]}
+{"id": "cti-0017", "techniques": ["T1027", "T1059.001"]}
+{"id": "cti-0018", "techniques": ["T1059.001"]}
+{"id": "cti-0019", "techniques": ["T1053.001", "T1053.002"]}
+{"id": "cti-0020", "techniques": ["T1059.001", "T1134"]}
+{"id": "cti-0021", "techniques": ["T1078.001", "T1078.002"]}
+{"id": "cti-0022", "techniques": ["T1058.001", "T1059.001"]}
+{"id": "cti-0023", "techniques": ["T1033", "T1059.001"]}
+{"id": "cti-0024", "techniques": ["T1210.004", "T1494.001", "T1571.003"]}
+{"id": "cti-0025", "techniques": ["T1566.001", "T1592.001"]}
+{"id": "cti-0026", "techniques": ["T1028.001", "T1059.001"]}
+{"id": "cti-0027", "techniques": ["T1490.001", "T1564.002"]}
+{"id": "cti-0028", "techniques": ["T1059.001"]}
+{"id": "cti-0029", "techniques": ["T1059.001", "T1059.004"]}
+{"id": "cti-0030", "techniques": ["T1486.001"]}
+{"id": "cti-0031", "techniques": ["T1059.001", "T1210"]}
+{"id": "cti-0032", "techniques": ["T1403.002", "T1406.001"]}
+{"id": "cti-0033", "techniques": ["T1203", "T1230.001"]}
+{"id": "cti-0034", "techniques": ["T1568.001", "T1569.001"]}
+{"id": "cti-0035", "techniques": ["T1204.001", "T1563.002"]}
+{"id": "cti-0036", "techniques": ["T1059.001"]}
+{"id": "cti-0037", "techniques": ["T1427.001", "T1435.002"]}
+{"id": "cti-0038", "techniques": ["T1059.001"]}
+{"id": "cti-0039", "techniques": ["T1105.002", "T1547.001"]}
+{"id": "cti-0040", "techniques": ["T1059.001"]}
+{"id": "cti-0041", "techniques": ["T1059.001", "T1059.002"]}
+{"id": "cti-0042", "techniques": ["T1059.001"]}
+{"id": "cti-0043", "techniques": ["T1027", "T1059.001"]}
+{"id": "cti-0044", "techniques": ["T1402.001", "T1406.002"]}
+{"id": "cti-0045", "techniques": ["T1566.001"]}
+{"id": "cti-0046", "techniques": ["T1059.001", "T1574.001"]}
+{"id": "cti-0047", "techniques": ["T1059.001", "T1210.001"]}
+{"id": "cti-0048", "techniques": ["T1027", "T1059.001"]}
+{"id": "cti-0049", "techniques": ["T1059.001", "T1059.004"]}
+{"id": "cti-0050", "techniques": ["T1059.001", "T1059.002"]}
+{"id": "cti-0051", "techniques": ["T1038.001", "T1560.002"]}
+{"id": "cti-0052", "techniques": ["T1059.001", "T1214.001", "T1563.002"]}
+{"id": "cti-0053", "techniques": ["T1532.001", "T1560.004"]}
+{"id": "cti-0054", "techniques": ["T1027"]}
+{"id": "cti-0055", "techniques": ["T1059.001", "T1059.002"]}
+{"id": "cti-0056", "techniques": ["T1053.001", "T1059.001"]}
+{"id": "cti-0057", "techniques": ["T1059.001"]}
+{"id": "cti-0058", "techniques": ["T1059.001"]}
+{"id": "cti-0059", "techniques": ["T1059.001", "T1059.004"]}
+{"id": "cti-0060", "techniques": ["T1014.002", "T1059.001"]}
+{"id": "cti-0061", "techniques": ["T1059.001", "T1208"]}
+{"id": "cti-0062", "techniques": ["T1028.001", "T1059.001"]}
+{"id": "cti-0063", "techniques": ["T1059.001", "T1105"]}
+{"id": "cti-0064", "techniques": ["T1234.001", "T1234.002"]}
+{"id": "cti-0065", "techniques": ["T1573.001"]}
+{"id": "cti-0066", "techniques": ["T1027.001", "T1059.001"]}
+{"id": "cti-0067", "techniques": ["T1027.001", "T1059.001"]}
+{"id": "cti-0068", "techniques": ["T1027.001", "T1483.001"]}
+{"id": "cti-0069", "techniques": ["T1059.001", "T1407.001"]}
+{"id": "cti-0070", "techniques": ["T1027.001", "T1059.001"]}
+{"id": "cti-0071", "techniques": ["T1059.001", "T1078"]}
+{"id": "cti-0072", "techniques": ["T1028.003", "T1059.001"]}
+{"id": "cti-0073", "techniques": ["T1059.002", "T1059.004"]}
+{"id": "cti-0074", "techniques": ["T1059.001", "T1078.001"]}
+{"id": "cti-0075", "techniques": ["T1059.001"]}
+{"id": "cti-0076", "techniques": ["T1027", "T1059.001"]}
+{"id": "cti-077", "techniques": ["T1028.001", "T1053.001"]}
+{"id": "cti-078", "techniques": ["T1059.004"]}
+{"id": "cti-079", "techniques": ["T1059.001", "T1218.001"]}
+{"id": "cti-080", "techniques": ["T1059.001"]}
+{"id": "cti-081", "techniques": ["T1210.001", "T1590.004"]}
+{"id": "cti-082", "techniques": ["T1059.001", "T1136"]}
+{"id": "cti-083", "techniques": ["T1204.001", "T1568.001"]}
+{"id": "cti-084", "techniques": ["T1059.001", "T1059.002"]}
+{"id": "cti-085", "techniques": ["T1059.001", "T1628.001"]}
+{"id": "cti-086", "techniques": ["T1428.001", "T1437"]}
+{"id": "cti-087", "techniques": ["T1107.002", "T1568.001"]}
+{"id": "cti-088", "techniques": ["T1047"]}
+{"id": "cti-089", "techniques": ["T1027.002", "T1053.001"]}
+{"id": "cti-090", "techniques": ["T1563.001"]}
+{"id": "cti-091", "techniques": ["T1059.004"]}
+{"id": "cti-092", "techniques": ["T1059.001"]}
+{"id": "cti-093", "techniques": ["T1053.001", "T1059.001"]}
+{"id": "cti-094", "techniques": ["T1059.001", "T1059.002"]}
+{"id": "cti-095", "techniques": ["T1218.001", "T1563.002"]}
+{"id": "cti-096", "techniques": ["T1495", "T1497.001"]}
+{"id": "cti-097", "techniques": ["T1059.001", "T1107.002"]}
+{"id": "cti-098", "techniques": ["T1046", "T1059.001"]}
+{"id": "cti-099", "techniques": ["T1059.001", "T1217.001"]}
+{"id": "cti-100", "techniques": ["T1053.001", "T1053.002"]}
+{"id": "cti-101", "techniques": ["T1059.001"]}
+{"id": "cti-102", "techniques": ["T1027", "T1059.004"]}
+{"id": "cti-103", "techniques": ["T1407.002"]}

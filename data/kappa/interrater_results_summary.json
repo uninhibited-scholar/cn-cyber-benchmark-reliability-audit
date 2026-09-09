@@ -1,0 +1,37 @@
+{
+  "round1_n27": {
+    "agent_safety_allow_block": {
+      "annotator_A_vs_gold": 0.924,
+      "annotator_B_vs_gold": 0.924,
+      "A_vs_B_human_interrater": 1.0
+    },
+    "defensive_refusal_answer_refuse": {
+      "annotator_A_vs_gold": 0.237,
+      "annotator_B_vs_gold": 0.71,
+      "A_vs_B_human_interrater": 0.242
+    }
+  },
+  "round2_n27_partial": {
+    "agent_safety_allow_block": {
+      "annotator_A_vs_gold": 0.776
+    },
+    "defensive_refusal_answer_refuse": {
+      "annotator_A_vs_gold": 0.836
+    },
+    "note": "annotator B (round 2) pending; pooled n=54 inter-rater to be computed once received"
+  },
+  "llm_annotators_n27": {
+    "agent_safety_allow_block": {
+      "deepseek-v4-pro": 0.769,
+      "glm-5.3": 0.827,
+      "kimi-k2.7-code": 0.85,
+      "majority_vote": 0.777
+    },
+    "defensive_refusal_answer_refuse": {
+      "deepseek-v4-pro": 0.836,
+      "glm-5.3": 1.0,
+      "kimi-k2.7-code": 1.0,
+      "majority_vote": 0.836
+    }
+  }
+}

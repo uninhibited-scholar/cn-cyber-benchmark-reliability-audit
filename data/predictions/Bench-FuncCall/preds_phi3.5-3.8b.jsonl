@@ -1,0 +1,103 @@
+{"id": "fc-0001", "calls": [{"name": "search_train", "arguments": {"from": "北京", "to": "上海", "date": "明天", "period": "上午"}}]}
+{"id": "fc-0002", "calls": [{"name": "get_weather", "arguments": {"city": "Shanghai"}}]}
+{"id": "fc-0003", "calls": [{"name": "track_express", "arguments": {"number": "SF1234567890"}}]}
+{"id": "fc-0004", "calls": []}
+{"id": "fc-0005", "calls": []}
+{"id": "fc-0006", "calls": [{"name": "translate", "arguments": {"text": "你好世界", "target": "日语"}}]}
+{"id": "fc-0007", "calls": []}
+{"id": "fc-0008", "calls": []}
+{"id": "fc-0009", "calls": []}
+{"id": "fc-0010", "calls": []}
+{"id": "fc-0011", "calls": []}
+{"id": "fc-0012", "calls": [{"name": "get_weather", "arguments": {"city": "上海"}}, {"nameсти标题": "许嵩歌曲播放", "description": "根据天气信息，选择合适的音乐"}]}
+{"id": "fc-0013", "calls": [{"name": "search_train", "arguments": {"from": "北京", "to": "上海", "date": "tomorrow", "period": "下午"}}]}
+{"id": "fc-0014", "calls": []}
+{"id": "fc-0015", "calls": [{"name": "create_reminder", "arguments": {"datetime": "请您指定的日期和时间形式，例如 '2023-04-17 10:00' ", "title": "组会"}}]}
+{"id": "fc-0016", "calls": [{"name": "search_hotel", "arguments": {"city": "上海", "checkin": "今天下午", "nights": 3}}]}
+{"id": "fc-0017", "calls": [{"name": "order_takeout", "arguments": {"shop": "瑞幸", "item": "生椰拿铁", "count": 3}}]}
+{"id": "fc-0018", "calls": []}
+{"id": "fc-0019", "calls": []}
+{"id": "fc-0020", "calls": []}
+{"id": "fc-0021", "calls": []}
+{"id": "fc-0022", "calls": [{"name": "compose_poem", "arguments": {"theme": "springtime", "structure": "free verse or a specific form like sonnet"}}]}
+{"id": "fc-0023", "calls": [{"name": "send_email", "arguments": {"subject": "Urgent: Legal Document - Immediate Attention Required", "to": "LegalDepartment@company.com", "body": "Please find attached the requested legal document for your review and action."}}, {"name": "create_reminder", "arguments": {"datetime": "2023-04-15 17:00", "title": "Review Legal Document"}}]}
+{"id": "fc-0024", "calls": [{"name": "create_reminder", "arguments": {"datetime": "2023-MM-DD 20:00", "title": "Call Mom"}}]}
+{"id": "fc-0025", "calls": [{"name": "get_stock", "arguments": {"code": "00700"}}]}
+{"id": "fc-0026", "calls": []}
+{"id": "fc-0027", "calls": []}
+{"id": "fc-0028", "calls": []}
+{"id": "fc-0029", "calls": [{"name": "set_alarm", "arguments": {"time": "07:30", "label": "Wake Up Call"}}]}
+{"id": "fc-0030", "calls": [{"name": "convert_currency", "arguments": {"amount": 100, "from": "USD", "to": "CNY"}}]}
+{"id": "fc-0031", "calls": []}
+{"id": "fc-0032", "calls": [{"name": "lookup_word", "arguments": {"word": "serendipity"}}]}
+{"id": "fc-0033", "calls": [{"name": "get_news", "arguments": {"topic": "人工智能", "count": 3}}]}
+{"id": "fc-0034", "calls": [{"name": "send_message", "arguments": {"to": "张三", "content": "会议改到下午三点。"}}]}
+{"id": "fc-0035", "calls": [{"name": "set_timer", "arguments": {"minutes": 25}}]}
+{"id": "fc-0036", "calls": []}
+{"id": "fc-0037", "calls": []}
+{"id": "fc-0038", "calls": [{"name": "convert_unit", "arguments": {"value": 5000, "from": "米", "to": "千米"}}]}
+{"id": "fc-0039", "calls": [{"name": "set_timer", "arguments": {"minutes": 3}}]}
+{"id": "fc-0040", "calls": [{"name": "convert_currency", "arguments": {"amount": 235, "from": "JPY", "to": "CNY"}}]}
+{"id": "fc-0041", "calls": []}
+{"id": "fc-0042", "calls": [{"name": "calculator", "arguments": {"expression": "88 - 19"}}, {"namezyme": "set_timer", "arguments": {"minutes": 10}}]}
+{"id": "fc-0043", "calls": []}
+{"id": "fc-0044", "calls": [{"name": "send_message", "arguments": {"to": "李四", "content": "我晚点到了，再导航去公司。"}}, {"name": "navigate", "arguments": {"origin": "当前位置", "destination": "公司", "mode": "公交"}}]}
+{"id": "fc-0045", "calls": [{"name": "search_flight", "arguments": {"from": "杭州", "to": "广州", "date": "大后天"}}]}
+{"id": "fc-0046", "calls": [{"name": "book_movie", "arguments": {"title": "流浪地球", "count": 4}}]}
+{"id": "fc-0047", "calls": [{"name": "convert_currency", "arguments": {"amount": 200, "from": "EUR", "to": "CNY"}}]}
+{"id": "fc-0048", "calls": [{"name": "order_coffee", "arguments": {"beverage": "coffee"}}]}
+{"id": "fc-0049", "calls": []}
+{"id": "fc-0050", "calls": [{"name": "self_reflection", "arguments": {"questions": ["你对当前工作满意多少？", "有哪些是令人失望的或累的方面？", "这种情况如何影射了其他生活方面？", "想法换一份工作能给你多少好处和挑战？"]}}, {"name": "research_jobs", "arguments": {"keywords": ["兴趣爱好", "工作经验", "潜在的新角色"]}}, {"name": "prepare_resume", "arguments": {"current_skills": [], "desired_jobs": "工作类型或行业"}}, {"name": "mock_interview", "arguments": {"questions": ["你如何解释过去的经历？", "这些经历为潜在新工作有什么相关性？"]}}, {"name": "seek_advice", "arguments": {"from": "职业导师或同事"}}]}
+{"id": "fc-0051", "calls": [{"name": "语音助手", "arguments": {"text": "请提供你想要被朗读的具体段落"}}]}
+{"id": "fc-0052", "calls": []}
+{"id": "fc-0053", "calls": [{"name": "book_restaurant", "arguments": {"name": "你的名字或指定者", "people": 4, "time": "今晚七点"}}]}
+{"id": "fc-0054", "calls": [{"name": "control_device", "arguments": {"device": "客厅灯", "action": "打开"}}]}
+{"id": "fc-0055", "calls": []}
+{"id": "fc-0056", "calls": [{"name": "search_recipe", "arguments": {"dish": "红烧肉"}}]}
+{"id": "fc-0057", "calls": []}
+{"id": "fc-0058", "calls": [{"name": "find_contact", "arguments": {"name": "王医生"}}]}
+{"id": "fc-0059", "calls": [{"name": "get_traffic", "arguments": {"route": "to the airport"}}]}
+{"id": "fc-0060", "calls": []}
+{"id": "fc-0061", "calls": []}
+{"id": "fc-0062", "calls": []}
+{"id": "fc-0063", "calls": []}
+{"id": "fc-0064", "calls": []}
+{"id": "fc-0065", "calls": [{"name": "control_device", "arguments": {"device": "卧室灯", "action": "关闭"}}, {"name": "set_volume", "arguments": {"level": 30}}]}
+{"id": "fc-0066", "calls": [{"name": "get_weather", "arguments": {"city": "成都"}}, {"name": "search_recipe", "arguments": {"dish": "宫保鸡丁"}}]}
+{"id": "fc-0067", "calls": [{"name": "send_email", "arguments": {"to": "王经理", "subject": "请假正文：明天请假一天", "body": "亲爱的王经理，我将在今天请假。为了确保工作不会被漏洞，希望你能给我设置一个1小时的倒计时。谢谢！"}}, {"name": "set_timer", "arguments": {"minutes": 60}}]}
+{"id": "fc-0068", "calls": [{"name": "find_contact", "arguments": {"name": "李四"}}, {"name": "get_traffic", "arguments": {"route": "回家的路况"}}]}
+{"id": "fc-0069", "calls": []}
+{"id": "fc-0070", "calls": [{"name": "control_device", "arguments": {"device": "客厅灯", "action": "关闭"}}]}
+{"id": "fc-0071", "calls": []}
+{"id": "fc-0072", "calls": []}
+{"id": "fc-0073", "calls": []}
+{"id": "fc-0074", "calls": []}
+{"id": "fc-0075", "calls": []}
+{"id": "fc-0076", "calls": []}
+{"id": "fc-077", "calls": [{"name": "get_stock", "arguments": {"code": "600519"}}]}
+{"id": "fc-078", "calls": []}
+{"id": "fc-079", "calls": [{"name": "control_device", "arguments": {"device": "客厅灯", "action": "关闭"}}]}
+{"id": "fc-080", "calls": [{"name": "find_contact", "arguments": {"name": "张伟"}}]}
+{"id": "fc-081", "calls": []}
+{"id": "fc-082", "calls": [{"name": "set_timer", "arguments": {"minutes": 15}}]}
+{"id": "fc-083", "calls": []}
+{"id": "fc-084", "calls": [{"name": "navigate", "arguments": {"origin": "current_location", "destination": "Taipei Main Station", "mode": "public_transport"}}]}
+{"id": "fc-085", "calls": [{"name": "get_weather", "arguments": {"city": "北京"}}, {"nameсти名称": "play_music", "arguments": {"song": "稻香", "singer": "周杰伦"}}]}
+{"id": "fc-086", "calls": [{"name": "control_device", "arguments": {"device": "会议室空调", "action": "打开"}}, {"name": "set_volume", "arguments": {"level": 30}}]}
+{"id": "fc-087", "calls": [{"name": "translate", "arguments": {"text": "谢谢", "target": "日语"}}, {"name": "set_timer", "arguments": {"minutes": 5}}]}
+{"id": "fc-088", "calls": []}
+{"id": "fc-089", "calls": []}
+{"id": "fc-090", "calls": []}
+{"id": "fc-091", "calls": [{"name": "send_message", "arguments": {"to": "李雷", "content": "我到了"}}]}
+{"id": "fc-092", "calls": []}
+{"id": "fc-093", "calls": [{"name": "poetry_composition", "arguments": {"theme": "autumn", "length": "medium"}}]}
+{"id": "fc-094", "calls": [{"name": "take_a_break", "arguments": {}}]}
+{"id": "fc-095", "calls": [{"name": "order_takeout", "arguments": {"shop": "Example Pizza Place", "item": "Pepperoni Pizza", "count": 1}}]}
+{"id": "fc-096", "calls": []}
+{"id": "fc-097", "calls": []}
+{"id": "fc-098", "calls": [{"name": "search_hotel", "arguments": {"city": "三亚", "checkin": "订后天", "nights": 5}}]}
+{"id": "fc-099", "calls": []}
+{"id": "fc-100", "calls": []}
+{"id": "fc-101", "calls": [{"name": "set_alarm", "arguments": {"time": "07:00", "label": ""}}]}
+{"id": "fc-102", "calls": []}
+{"id": "fc-103", "calls": [{"name": "create_reminder", "arguments": {"datetime": "2023-04-01T10:00", "title": "会议"}}]}

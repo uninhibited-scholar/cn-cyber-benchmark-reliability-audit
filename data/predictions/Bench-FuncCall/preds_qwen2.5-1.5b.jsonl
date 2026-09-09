@@ -1,0 +1,103 @@
+{"id": "fc-0001", "calls": [{"name": "search_train", "arguments": {"from": "北京", "to": "上海", "date": "明天", "period": "上午"}}]}
+{"id": "fc-0002", "calls": [{"name": "get_weather", "arguments": {"city": "上海"}}]}
+{"id": "fc-0003", "calls": [{"name": "track_express", "arguments": {"number": "SF1234567890"}}]}
+{"id": "fc-0004", "calls": [{"name": "order_takeout", "arguments": {"shop": "海底捞", "item": "番茄锅", "count": 1}}]}
+{"id": "fc-0005", "calls": [{"name": "calculator", "arguments": {"expression": "23*17"}}]}
+{"id": "fc-0006", "calls": [{"name": "translate", "arguments": {"text": "你好世界", "target": "日语"}}]}
+{"id": "fc-0007", "calls": [{"name": "play_music", "arguments": {"song": "晴天", "singer": "周杰伦"}}]}
+{"id": "fc-0008", "calls": [{"name": "get_stock", "arguments": {"code": "600519"}}]}
+{"id": "fc-0009", "calls": [{"name": "get_weather", "arguments": {"city": "北京"}}, {"name": "get_weather", "arguments": {"city": "上海"}}]}
+{"id": "fc-0010", "calls": [{"name": "track_express", "arguments": {"number": "SF111"}, "call_id": "1"}, {"name": "track_express", "arguments": {"number": "YT222"}, "call_id": "2"}]}
+{"id": "fc-0011", "calls": [{"name": "translate", "arguments": {"text": "谢谢", "target": "英语"}}, {"name": "translate", "arguments": {"text": "再见", "target": "法语"}}]}
+{"id": "fc-0012", "calls": [{"name": "get_weather", "arguments": {"city": "上海"}}, {"name": "play_music", "arguments": {"song": "有何不可", "singer": "许嵩"}}]}
+{"id": "fc-0013", "calls": [{"name": "search_train", "arguments": {"from": "北京", "to": "上海", "date": "后天", "period": "下午"}}]}
+{"id": "fc-0014", "calls": [{"name": "order_takeout", "arguments": {"shop": "海底捞", "item": "毛肚", "count": 2}}]}
+{"id": "fc-0015", "calls": [{"name": "create_reminder", "arguments": {"datetime": "2023-10-15T10:00", "title": "开组会"}}]}
+{"id": "fc-0016", "calls": []}
+{"id": "fc-0017", "calls": [{"name": "order_takeout", "arguments": {"shop": "瑞幸咖啡", "item": "生椰拿铁", "count": 3}}]}
+{"id": "fc-0018", "calls": [{"name": "calculator", "arguments": {"expression": "128 / 4"}}]}
+{"id": "fc-0019", "calls": [{"name": "search_train", "arguments": {"from": "北京", "to": "成都", "date": "今天", "period": "上午"}}]}
+{"id": "fc-0020", "calls": [{"name": "play_music", "arguments": {"song": "小幸运", "singer": "王心凌"}}]}
+{"id": "fc-0021", "calls": [{"name": "search_train", "arguments": {"from": "北京", "to": "上海", "date": "今天", "period": "上午"}}]}
+{"id": "fc-0022", "calls": [{"name": "generate", "arguments": {"language": "中文", "theme": "春天"}}]}
+{"id": "fc-0023", "calls": [{"name": "send_contract", "arguments": {"to": "法律部门"}}]}
+{"id": "fc-0024", "calls": [{"name": "create_reminder", "arguments": {"datetime": "2023-10-05 20:00", "title": "给妈妈打电话"}}]}
+{"id": "fc-0025", "calls": [{"name": "get_stock", "arguments": {"code": "00700"}}]}
+{"id": "fc-0026", "calls": [{"name": "get_weather", "arguments": {"city": "深圳"}}]}
+{"id": "fc-0027", "calls": [{"name": "search_train", "arguments": {"from": "广州", "to": "长沙", "date": "明天", "period": "下午"}}]}
+{"id": "fc-0028", "calls": [{"name": "translate", "arguments": {"text": "今天天气真好", "target": "英语"}}]}
+{"id": "fc-0029", "calls": [{"name": "set_alarm", "arguments": {"time": "07:00", "label": "起床提醒"}}]}
+{"id": "fc-0030", "calls": [{"name": "convert_currency", "arguments": {"amount": 100, "from": "USD", "to": "CNY"}}]}
+{"id": "fc-0031", "calls": [{"name": "navigate", "arguments": {"origin": "", "destination": "首都机场", "mode": "驾车"}}]}
+{"id": "fc-0032", "calls": [{"name": "lookup_word", "arguments": {"word": "serendipity"}}]}
+{"id": "fc-0033", "calls": []}
+{"id": "fc-0034", "calls": [{"name": "send_message", "arguments": {"to": "张三", "content": "会议改到下午三点"}}]}
+{"id": "fc-0035", "calls": []}
+{"id": "fc-0036", "calls": [{"name": "search_flight", "arguments": {"from": "杭州", "to": "广州", "date": "后天"}}]}
+{"id": "fc-0037", "calls": [{"name": "book_movie", "arguments": {"title": "流浪地球", "count": 2, "time": "今晚8点"}}]}
+{"id": "fc-0038", "calls": [{"name": "convert_unit", "arguments": {"value": 5, "from": "千米", "to": "千米"}}]}
+{"id": "fc-0039", "calls": []}
+{"id": "fc-0040", "calls": [{"name": "convert_currency", "arguments": {"amount": 235, "from": "JPY", "to": "CNY"}}]}
+{"id": "fc-0041", "calls": [{"name": "get_weather", "arguments": {"city": "杭州"}}, {"name": "get_weather", "arguments": {"city": "南京"}}]}
+{"id": "fc-0042", "calls": []}
+{"id": "fc-0043", "calls": [{"name": "get_news", "arguments": {"topic": "深圳新闻", "count": 1}}]}
+{"id": "fc-0044", "calls": [{"name": "send_message", "arguments": {"to": "李四", "content": "我很快到，请不要等待。"}}, {"name": "navigate", "arguments": {"origin": "", "destination": "公司", "mode": "驾车"}}]}
+{"id": "fc-0045", "calls": [{"name": "search_flight", "arguments": {"from": "杭州", "to": "广州", "date": "2023-10-15"}}]}
+{"id": "fc-0046", "calls": [{"name": "book_movie", "arguments": {"title": "流浪地球", "count": 4, "time": "上一轮订了《流浪地球》两张"}}]}
+{"id": "fc-0047", "calls": [{"name": "convert_currency", "arguments": {"amount": 200, "from": "USD", "to": "CNY"}}]}
+{"id": "fc-0048", "calls": [{"name": "order_coffee", "arguments": {"quantity": "1"}}]}
+{"id": "fc-0049", "calls": [{"name": "search_flight", "arguments": {"from": "北京", "to": "的", "date": "今天"}}]}
+{"id": "fc-0050", "calls": []}
+{"id": "fc-0051", "calls": [{"name": "send_message", "arguments": {"to": "admin", "content": "把这段话朗读出来。"}}]}
+{"id": "fc-0052", "calls": [{"name": "reserve_meeting_room", "arguments": {"date": "明天"}}]}
+{"id": "fc-0053", "calls": [{"name": "book_restaurant", "arguments": {"name": "海底捞", "people": 4, "time": "7点"}}]}
+{"id": "fc-0054", "calls": [{"name": "control_device", "arguments": {"device": "客厅", "action": "打开"}}]}
+{"id": "fc-0055", "calls": [{"name": "create_event", "arguments": {"title": "产品评审", "datetime": "2023-10-05 14:00"}}]}
+{"id": "fc-0056", "calls": [{"name": "search_recipe", "arguments": {"dish": "红烧肉"}}]}
+{"id": "fc-0057", "calls": []}
+{"id": "fc-0058", "calls": [{"name": "find_contact", "arguments": {"name": "王医生"}}]}
+{"id": "fc-0059", "calls": [{"name": "get_traffic", "arguments": {"route": "机场"}}]}
+{"id": "fc-0060", "calls": [{"name": "search_web", "arguments": {"query": "今年端午节日期"}}]}
+{"id": "fc-0061", "calls": [{"name": "count_calories", "arguments": {"food": "米饭", "grams": 150}}]}
+{"id": "fc-0062", "calls": []}
+{"id": "fc-0063", "calls": [{"name": "book_restaurant", "arguments": {"name": "全聚德", "people": 6, "time": "12点半"}}]}
+{"id": "fc-0064", "calls": [{"name": "control_device", "arguments": {"device": "空调", "action": "关闭"}}]}
+{"id": "fc-0065", "calls": []}
+{"id": "fc-0066", "calls": [{"name": "get_weather", "arguments": {"city": "成都"}}, {"name": "search_recipe", "arguments": {"dish": "宫保鸡丁"}}]}
+{"id": "fc-0067", "calls": [{"name": "set_timer", "arguments": {"minutes": 60}}]}
+{"id": "fc-0068", "calls": [{"name": "get_traffic", "arguments": {"route": "回家"}}]}
+{"id": "fc-0069", "calls": [{"name": "book_restaurant", "arguments": {"name": "海底捞", "people": 6, "time": "未指定"}}]}
+{"id": "fc-0070", "calls": [{"name": "control_device", "arguments": {"device": "客厅灯", "action": "关闭"}}]}
+{"id": "fc-0071", "calls": [{"name": "get_weather", "arguments": {"city": "重庆"}}]}
+{"id": "fc-0072", "calls": [{"name": "create_event", "arguments": {"title": "体检", "datetime": "2023-10-07T09:00"}}]}
+{"id": "fc-0073", "calls": [{"name": "control_device", "arguments": {"device": "铃声", "action": "设置"}}]}
+{"id": "fc-0074", "calls": [{"name": "book_restaurant", "arguments": {"name": "小桥流水记", "people": 2, "time": "晚上7点"}}]}
+{"id": "fc-0075", "calls": [{"name": "search_web", "arguments": {"query": "笑话"}}]}
+{"id": "fc-0076", "calls": []}
+{"id": "fc-077", "calls": [{"name": "get_stock", "arguments": {"code": "600519"}}]}
+{"id": "fc-078", "calls": [{"name": "lookup_word", "arguments": {"word": "ephemeral"}}]}
+{"id": "fc-079", "calls": [{"name": "control_device", "arguments": {"device": "客厅灯", "action": "关闭"}}]}
+{"id": "fc-080", "calls": [{"name": "find_contact", "arguments": {"name": "张伟"}}]}
+{"id": "fc-081", "calls": []}
+{"id": "fc-082", "calls": []}
+{"id": "fc-083", "calls": [{"name": "calculator", "arguments": {"expression": "1234*56"}}]}
+{"id": "fc-084", "calls": [{"name": "navigate", "arguments": {"destination": "虹桥火车站"}}]}
+{"id": "fc-085", "calls": [{"name": "get_weather", "arguments": {"city": "北京"}}, {"name": "play_music", "arguments": {"song": "稻香", "singer": "周杰伦"}}]}
+{"id": "fc-086", "calls": []}
+{"id": "fc-087", "calls": [{"name": "set_timer", "arguments": {"minutes": 5}}, {"name": "translate", "arguments": {"text": "谢谢", "target": "日语"}}]}
+{"id": "fc-088", "calls": [{"name": "search_flight", "arguments": {"from": "上海", "to": "北京", "date": "明天"}}, {"name": "search_hotel", "arguments": {"city": "北京", "checkin": "后天", "nights": 2}}]}
+{"id": "fc-089", "calls": [{"name": "book_restaurant", "arguments": {"name": "海底捞", "people": 4, "time": "晚上 7 点"}}]}
+{"id": "fc-090", "calls": [{"name": "book_movie", "arguments": {"title": "流浪地球3", "count": 3, "time": "今晚 8"}}]}
+{"id": "fc-091", "calls": [{"name": "send_message", "arguments": {"to": "李雷", "content": "我到了。"}}]}
+{"id": "fc-092", "calls": []}
+{"id": "fc-093", "calls": [{"name": "generate", "arguments": {"language": "中文", "prompt": "秋天，是一个丰收的季节，金黄的稻谷和成熟的果实，让人感受到大自然的魅力。秋天，也是一个收获的季节，落叶纷飞，如同一幅美丽的画卷。秋天，还是一个思念的季节，人们在秋风中回忆起过去的时光。秋天，更是个浪漫的季节，枫叶红了，天空蓝了，一切都显得那么美好。"}}]}
+{"id": "fc-094", "calls": [{"name": "control_device", "arguments": {"device": "卧室灯光", "action": "关闭"}}]}
+{"id": "fc-095", "calls": [{"name": "order_takeout", "arguments": {"shop": "肯德基", "item": "炸鸡", "count": 1}}]}
+{"id": "fc-096", "calls": [{"name": "search_train", "arguments": {"from": "北京", "to": "上海", "date": "2023-10-05"}}]}
+{"id": "fc-097", "calls": []}
+{"id": "fc-098", "calls": []}
+{"id": "fc-099", "calls": [{"name": "convert_currency", "arguments": {"amount": 8800, "from": "JPY", "to": "CNY"}}]}
+{"id": "fc-100", "calls": [{"name": "convert_unit", "arguments": {"value": 5, "from": "英里", "to": "公里"}}]}
+{"id": "fc-101", "calls": []}
+{"id": "fc-102", "calls": [{"name": "search_flight", "arguments": {"from": "广州", "to": "北京", "date": "三天后"}}]}
+{"id": "fc-103", "calls": [{"name": "create_reminder", "arguments": {"datetime": "2023-10-05 10:00", "title": "会议"}}]}
