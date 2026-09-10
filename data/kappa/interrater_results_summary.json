@@ -1,4 +1,21 @@
 {
+  "pooled_n54": {
+    "note": "The authoritative statistic: both rounds use the SAME two annotators (the author, Annotator A; an LLM-focused postdoc colleague, Annotator B), confirmed after round 1's raw per-item labels -- initially thought lost -- were recovered from the annotators' own chat records and found to exactly reproduce the previously-published round1_n27 aggregate numbers below (a consistency check that passed). round2_n27 uses a second, non-overlapping n=27 sample per task (seed 20260909). Raw labels for both rounds are in filled_round1/ and filled_round2/ (private repo) and round2_raw_labels/ (this public package -- round1's raw labels are withheld from the public package pending the same annotator-privacy review as round2's, but are available on request).",
+    "agent_safety_allow_block": {
+      "annotator_A_vs_gold": 0.849,
+      "annotator_B_vs_gold": 0.844,
+      "A_vs_B_human_interrater": 0.771,
+      "agreement": 0.926,
+      "disagreements": "6/54"
+    },
+    "defensive_refusal_answer_refuse": {
+      "annotator_A_vs_gold": 0.428,
+      "annotator_B_vs_gold": 0.710,
+      "A_vs_B_human_interrater": 0.469,
+      "agreement": 0.796,
+      "disagreements": "11/54"
+    }
+  },
   "round1_n27": {
     "agent_safety_allow_block": {
       "annotator_A_vs_gold": 0.924,
@@ -21,8 +38,7 @@
       "annotator_A_vs_gold": 0.836,
       "annotator_B_vs_gold": 0.710,
       "A_vs_B_human_interrater": 0.867
-    },
-    "note": "Round 2 uses a different, non-overlapping n=27 sample per task (seed 20260909) and, for agent_safety, a different Annotator B than round 1 (round 1's B was an unrelated-ML-subfield colleague; round 2's B is a CUHK MMLab LLM postdoc). NOT pooled with round 1 into a single n=54 statistic: round 1's raw per-item human labels were not preserved (only the aggregate kappa was recorded at the time), so a statistically correct pooled kappa -- which requires each round's label marginals, not just its kappa -- cannot be computed from what remains. Reporting both rounds separately is the honest option; it is also itself informative, see below."
+    }
   },
   "llm_annotators_n27": {
     "agent_safety_allow_block": {

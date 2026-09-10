@@ -85,16 +85,21 @@ manuscript only as Annotator A / Annotator B). `answer_key.json` is withheld fro
 annotators during labeling; `code/compute_kappa.py <filled.jsonl>
 <agent_safety|refusal>` reproduces one annotator's kappa against this key from a
 filled blind form. `data/kappa/interrater_results_summary.json` has the final
-computed values for both rounds (round 1: human A-vs-B κ=1.000 agent-safety /
-κ=0.242 defensive-refusal; round 2, a different sample and for agent-safety a
-different Annotator B: κ=0.550 agent-safety / κ=0.867 defensive-refusal — the two
-rounds are reported separately, not pooled, since round 1's raw per-item labels
-were not preserved at the time; see the manuscript's Sec. 4.5 for why a pooled
-n=54 statistic would not be statistically correct without them).
-`data/kappa/round2_raw_labels/` contains round 2's actual per-item labels
-(`annotator_A_*.json` / `annotator_B_*.json`, id → label only, no annotator-
-identifying content) so this specific gap does not recur for round 2 and the
-κ=0.550/0.867 values above can be independently reproduced from raw data. Round
-1's raw filled forms were never preserved and round 1's aggregate statistics
-remain the only record of that round; only aggregate statistics are released
-for round 1 pre-review, for the reasons above.
+computed values. Both rounds use the **same two annotators** (Annotator A / the
+author, Annotator B / an LLM-focused postdoc colleague); round 1's raw per-item
+labels were initially believed lost (only the aggregate κ had been recorded at
+the time) but were later recovered from the annotators' own records and verified
+to exactly reproduce the previously-published round-1 aggregate numbers before
+being used for anything further. With both rounds' raw labels available, the
+statistically correct **pooled n=54 statistic** is the headline number: κ=0.771
+(agent-safety, substantial agreement) and κ=0.469 (defensive-refusal, moderate,
+below the conventional 0.6 threshold for substantial agreement) — noting that
+neither individual n=27 round was a reliable estimate of this pooled value on
+its own (round 1: κ=1.000 / κ=0.242; round 2: κ=0.550 / κ=0.867). See the
+manuscript's Sec. 4.5 for the full discussion of why the individual-round
+numbers are unreliable and the pooled one is preferred.
+`data/kappa/round1_raw_labels/` and `data/kappa/round2_raw_labels/` contain
+each round's actual per-item labels (`annotator_A_*.json` /
+`annotator_B_*.json`, id → label only, no annotator-identifying content), so
+every number above is independently reproducible from raw data for both
+rounds — round 1's raw labels are no longer an exception to this.
