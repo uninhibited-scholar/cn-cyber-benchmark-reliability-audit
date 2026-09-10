@@ -109,12 +109,11 @@ for k in [9, 13, 17, 20, 25]:
 
 # ---------- Sec 4.1c: disattenuation ----------
 print("\n--- Sec 4.1c: Disattenuation ---")
-# 11/25 models' real 5-trial repeat-measure variance (Sec 4.3), not the earlier
-# 2-model estimate -- see data/l2_retest/refusal_side_11models.json +
-# refusal_side_doubao15pro.json for the raw per-trial data behind this.
+# All 25 models' real 5-trial repeat-measure variance (Sec 4.3), not the earlier
+# 2-model estimate -- see data/l2_retest/refusal_side_all25.json for the raw
+# per-trial data (14/15 local models exactly sd=0; API models noisier).
 import json as _json
-_l2 = _json.load(open("../data/l2_retest/refusal_side_11models.json"))
-_l2.update(_json.load(open("../data/l2_retest/refusal_side_doubao15pro.json")))
+_l2 = _json.load(open("../data/l2_retest/refusal_side_all25.json"))  # full 25-model L2 refusal-side
 within_vars = [v["variance"] for v in _l2.values()]
 mean_within_var = sum(within_vars) / len(within_vars)
 hr_vals = [rows[m]["hr"] for m in models]
