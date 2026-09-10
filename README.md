@@ -25,8 +25,15 @@ data/
   predictions/<Bench-*>/gold_bench.jsonl  # gold labels for each item
   kappa/                           # Sec 4.5 blind-annotation materials:
                                     # blind samples (no gold), the withheld
-                                    # answer key, and (once run) LLM-annotator
-                                    # filled files
+                                    # answer key, round1_raw_labels/ and
+                                    # round2_raw_labels/ (both rounds' actual
+                                    # per-item human labels), and (once run)
+                                    # LLM-annotator filled files
+  l2_retest/                       # Sec 4.3/4.1: raw 5-trial repeat-measure
+                                    # results for 11/25 models (refusal_side_
+                                    # 11models.json + _doubao15pro.json) --
+                                    # feeds compute_all_statistics.py's
+                                    # empirical disattenuation input
 code/
   backends.py                      # model-calling client (not needed to
                                     # reproduce statistics from frozen data;
@@ -38,8 +45,15 @@ code/
   llm_annotate.py                  # Sec 4.5 LLM-as-annotator blind labeling
   compute_kappa.py                 # Cohen's kappa from a filled blind-annotation form
   compute_all_statistics.py        # *** START HERE ***: reproduces every
-                                    # headline number (Sec 4.1, 4.2, 4.5) from
-                                    # the frozen data/, no API calls needed
+                                    # headline number (Sec 4.1, 4.2) from the
+                                    # frozen data/, no API calls needed --
+                                    # including the disattenuation calc from
+                                    # data/l2_retest/. Sec 4.5's pooled n=54
+                                    # kappa is not yet wired into this script
+                                    # (compute manually from kappa/round{1,2}_
+                                    # raw_labels/ + answer_key.json, or see
+                                    # kappa/interrater_results_summary.json
+                                    # for the precomputed result)
 ```
 
 ## Quickest path to verifying the paper's numbers
@@ -49,7 +63,7 @@ cd code
 python3 compute_all_statistics.py
 ```
 
-This reads only `data/scored_results/results.json` and prints:
+This reads `data/scored_results/results.json` and `data/l2_retest/` and prints:
 - Sec. 4.1's random-resampling table (the corrected L1 finding)
 - Sec. 4.1's disattenuation calculation
 - Sec. 4.2's RQ2 correlation and TOST equivalence test

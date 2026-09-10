@@ -109,7 +109,13 @@ for k in [9, 13, 17, 20, 25]:
 
 # ---------- Sec 4.1c: disattenuation ----------
 print("\n--- Sec 4.1c: Disattenuation ---")
-within_vars = [0.081 ** 2, 0.053 ** 2]  # doubao-seed-2.0-pro / 2.1-turbo, 5-trial SDs (Sec 4.3)
+# 11/25 models' real 5-trial repeat-measure variance (Sec 4.3), not the earlier
+# 2-model estimate -- see data/l2_retest/refusal_side_11models.json +
+# refusal_side_doubao15pro.json for the raw per-trial data behind this.
+import json as _json
+_l2 = _json.load(open("../data/l2_retest/refusal_side_11models.json"))
+_l2.update(_json.load(open("../data/l2_retest/refusal_side_doubao15pro.json")))
+within_vars = [v["variance"] for v in _l2.values()]
 mean_within_var = sum(within_vars) / len(within_vars)
 hr_vals = [rows[m]["hr"] for m in models]
 mean_hr = sum(hr_vals) / len(hr_vals)
@@ -126,7 +132,7 @@ reliability_ir_approx = max(0, 1 - binom_var / total_var_ir)
 rho_obs = spearman(ir_vals, hr_vals)
 denom = math.sqrt(reliability_ir_approx * reliability_hr)
 rho_disatt = rho_obs / denom if denom > 0 else float("nan")
-print(f"  reliability(harmful_refusal_rate)  [empirical, from 2-model L2 repeat]  = {reliability_hr:.3f}")
+print(f"  reliability(harmful_refusal_rate)  [empirical, from {len(within_vars)}-model L2 repeat] = {reliability_hr:.3f}")
 print(f"  reliability(injection_recall)      [APPROXIMATED, binomial-noise floor] = {reliability_ir_approx:.3f}")
 print(f"  observed rho = {rho_obs:.3f}  ->  disattenuated rho = {min(1.0, rho_disatt):.3f}")
 
