@@ -85,7 +85,16 @@ manuscript only as Annotator A / Annotator B). `answer_key.json` is withheld fro
 annotators during labeling; `code/compute_kappa.py <filled.jsonl>
 <agent_safety|refusal>` reproduces one annotator's kappa against this key from a
 filled blind form. `data/kappa/interrater_results_summary.json` has the final
-computed values (round 1: human A-vs-B κ=1.000 agent-safety / κ=0.242
-defensive-refusal; round 2 in progress). Raw filled annotator forms are not
-included in this anonymized package to avoid any risk of re-identifying
-annotators; only the aggregate kappa statistics are released pre-review.
+computed values for both rounds (round 1: human A-vs-B κ=1.000 agent-safety /
+κ=0.242 defensive-refusal; round 2, a different sample and for agent-safety a
+different Annotator B: κ=0.550 agent-safety / κ=0.867 defensive-refusal — the two
+rounds are reported separately, not pooled, since round 1's raw per-item labels
+were not preserved at the time; see the manuscript's Sec. 4.5 for why a pooled
+n=54 statistic would not be statistically correct without them).
+`data/kappa/round2_raw_labels/` contains round 2's actual per-item labels
+(`annotator_A_*.json` / `annotator_B_*.json`, id → label only, no annotator-
+identifying content) so this specific gap does not recur for round 2 and the
+κ=0.550/0.867 values above can be independently reproduced from raw data. Round
+1's raw filled forms were never preserved and round 1's aggregate statistics
+remain the only record of that round; only aggregate statistics are released
+for round 1 pre-review, for the reasons above.
